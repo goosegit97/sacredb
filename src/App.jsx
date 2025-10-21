@@ -31,10 +31,19 @@ export default function LandingPage() {
             href="https://www.instagram.com/sacredboredom.mp4?igsh=bG1zMzdmaG1uNmNo"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-lg text-white transition-colors hover:text-white/80"
+            className="group relative text-lg font-bold uppercase tracking-wide chrome-text"
           >
             Instagram
-            <span className="absolute bottom-0 left-0 h-[3px] w-full bg-white transition-all group-hover:h-[2px] group-hover:bg-white/60" />
+            <span className="absolute bottom-0 left-0 h-[3px] w-full bg-gradient-to-r from-gray-200 via-gray-500 to-gray-200 transition-all group-hover:h-[2px] group-hover:opacity-70" />
+          </a>
+          <a
+            href="https://www.youtube.com/@Sacredboredom"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative text-lg font-bold uppercase tracking-wide chrome-text"
+          >
+            YouTube
+            <span className="absolute bottom-0 left-0 h-[3px] w-full bg-gradient-to-r from-gray-200 via-gray-500 to-gray-200 transition-all group-hover:h-[2px] group-hover:opacity-70" />
           </a>
         </div>
       </div>
