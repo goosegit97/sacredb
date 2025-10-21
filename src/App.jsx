@@ -28,42 +28,12 @@ export default function LandingPage() {
         {/* Social Links */}
         <div className="flex flex-wrap items-center justify-center gap-8 absolute bottom-[25vh] left-1/2 -translate-x-1/2">
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/sacredboredom.mp4?igsh=bG1zMzdmaG1uNmNo"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-lg text-white transition-colors hover:text-white/80"
           >
             Instagram
-            <span className="absolute bottom-0 left-0 h-[3px] w-full bg-white transition-all group-hover:h-[2px] group-hover:bg-white/60" />
-          </a>
-          
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-lg text-white transition-colors hover:text-white/80"
-          >
-            Twitter
-            <span className="absolute bottom-0 left-0 h-[3px] w-full bg-white transition-all group-hover:h-[2px] group-hover:bg-white/60" />
-          </a>
-          
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-lg text-white transition-colors hover:text-white/80"
-          >
-            Facebook
-            <span className="absolute bottom-0 left-0 h-[3px] w-full bg-white transition-all group-hover:h-[2px] group-hover:bg-white/60" />
-          </a>
-          
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group relative font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-lg text-white transition-colors hover:text-white/80"
-          >
-            LinkedIn
             <span className="absolute bottom-0 left-0 h-[3px] w-full bg-white transition-all group-hover:h-[2px] group-hover:bg-white/60" />
           </a>
         </div>
