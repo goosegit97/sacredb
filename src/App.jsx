@@ -2,17 +2,33 @@ import React from 'react';
 
 export default function LandingPage() {
   return (
-    <div className="relative min-h-screen overflow-hidden">
-      {/* Video Background */}
+    <div className="relative min-h-screen overflow-hidden touch-none overscroll-none">
+      {/* Video Backgrounds */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
+        {/* Landscape (desktop/tablet) */}
         <iframe
-          src="https://player.vimeo.com/video/1129126508?autoplay=1&loop=1&muted=1&background=1"
-          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
-          style={{ 
-            width: '100vw', 
+          src="https://player.vimeo.com/video/1129122883?autoplay=1&loop=1&muted=1&background=1"
+          className="hidden sm:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          style={{
+            width: '100vw',
             height: '56.25vw',
             minHeight: '100vh',
-            minWidth: '177.78vh'
+            minWidth: '177.78vh',
+          }}
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+        />
+
+        {/* Portrait (mobile) */}
+        <iframe
+          src="https://player.vimeo.com/video/1129126508?autoplay=1&loop=1&muted=1&background=1"
+          className="block sm:hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none"
+          style={{
+            width: '100vw',
+            height: '177.78vw', // taller to fit portrait
+            minHeight: '100vh',
+            minWidth: '56.25vh',
           }}
           frameBorder="0"
           allow="autoplay; fullscreen"
