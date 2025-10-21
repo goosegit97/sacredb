@@ -24,9 +24,9 @@ export default function LandingPage() {
       <div className="fixed inset-0 bg-black/30 -z-10" />
 
       {/* Content */}
-      <div className="flex min-h-screen flex-col bottom-1 px-8 py-12">
+      <div className="relative flex min-h-screen flex-col items-center justify-center px-8 py-12">
         {/* Social Links */}
-        <div className="flex flex-wrap items-center justify-center gap-8">
+        <div className="flex flex-wrap items-center justify-center gap-8 absolute bottom-[25vh] left-1/2 -translate-x-1/2">
           <a
             href="https://instagram.com"
             target="_blank"
