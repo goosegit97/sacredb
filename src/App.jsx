@@ -42,7 +42,7 @@ export default function LandingPage() {
       {/* Content */}
       <div className="relative flex min-h-screen flex-col items-center justify-center px-8 py-12">
         {/* Social Links */}
-        <div className="flex flex-wrap items-center justify-center gap-8 absolute bottom-[25vh] left-1/2 -translate-x-1/2">
+          <div className="flex flex-wrap items-center justify-center gap-8 absolute bottom-[25vh] sm:bottom-[18vh] md:bottom-[15vh] left-1/2 -translate-x-1/2">
           <a
             href="https://www.instagram.com/sacredboredom.mp4?igsh=bG1zMzdmaG1uNmNo"
             target="_blank"
