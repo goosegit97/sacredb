@@ -24,15 +24,7 @@ export default function LandingPage() {
       <div className="fixed inset-0 bg-black/30 -z-10" />
 
       {/* Content */}
-      <div className="relative flex min-h-screen flex-col items-center justify-center px-8 py-12">
-        <h1 className="mb-4 text-center font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-5xl font-bold text-white drop-shadow-lg md:text-6xl">
-          Welcome
-        </h1>
-        
-        <p className="mb-12 text-center font-['Helvetica_Neue',Helvetica,Arial,sans-serif] text-xl text-white drop-shadow-md md:text-2xl">
-          Connect with us on social media
-        </p>
-
+      <div className="flex min-h-screen flex-col bottom-1 px-8 py-12">
         {/* Social Links */}
         <div className="flex flex-wrap items-center justify-center gap-8">
           <a
